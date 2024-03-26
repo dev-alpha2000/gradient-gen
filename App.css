@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Stack items vertically */
+}
+
+h1 {
+  font-size: 1.9rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gradient-generator {
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  padding: 20px;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-preview {
+  width: 100%; /* Fill the entire width of the div */
+  height: 80%; /* Take up most of the height of the div */
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.color-picker {
+  width: 15%;
+  margin-bottom: 10px;
+
+}
+
+button {
+  padding: 8px 12px; /* Adjusted padding for smaller button size */
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color:black;
+  color: #fff;
+  font-size: 0.9rem; /* Adjusted font size for smaller button size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+button:hover {
+  background-color: grey;
+}
